@@ -1,0 +1,16 @@
+/* src/App.css */
+.product-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.product-list > div {
+  border: 1px solid #ddd;
+  padding: 1rem;
+  cursor: pointer;
+}
+
+.product-detail {
+  margin-top: 2rem;
+}
